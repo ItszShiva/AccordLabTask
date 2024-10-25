@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: center;
+    padding: 30px;
+    width: 800px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.left {
+    background-color: red;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+.center {
+    background-color: orange;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+}
+.right {
+    background-color: pink;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+nav {
+    background-color: green;
+    text-align: center;
+    padding: 40px;
+    width: 784px;
+    color: white;
+}
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    width: 764px;
+}
