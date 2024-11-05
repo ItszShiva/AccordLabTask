@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Selection</title>
+    <style>
+        .mlabel, .flabel {
+            font-size: 30px;
+        }
+
+        .minput:checked + .mlabel {
+            color: blue;
+        }
+
+        .finput:checked + .flabel {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="radio" id="male" name="gender" class="minput" />
+        <label for="male" class="mlabel">Male</label><br>
+        <input type="radio" id="female" name="gender" class="finput" />
+        <label for="female" class="flabel">Female</label>
+    </form>
+</body>
+</html>
