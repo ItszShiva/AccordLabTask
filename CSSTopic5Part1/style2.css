@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo, .nav, .header, .textarea, .footer {
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.boxcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 150px; 
+    height: 200px; 
+    border: 2px solid rgb(6, 6, 6);
+    padding: 20px;
+}

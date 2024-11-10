@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container > div {
+    margin-bottom: 20px;
+}
+
+.logo, .nav, .header, .sidebar, .content, .footer {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.header{
+    height: 80px;
+}
+
+.main {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content-wrapper
+ {
+     display: flex; 
+     flex: 1;
+ }
